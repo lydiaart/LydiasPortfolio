@@ -1,0 +1,183 @@
+
+header {
+    padding: 10px 25px;
+    background-color:steelblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  header h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 36px;
+    color:thistle;
+    display: flex;
+    width:24.5%;
+  }
+  
+  header a {
+    text-decoration: none;
+    color:thistle;
+    display: flex;
+    width: 75%;
+  }
+  
+  header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+
+  .hero {
+        background-image: url('../image/bike-1245889_1920.jpg');
+        background-position:center;
+        height: auto;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+main{
+    height: 100vh;
+}
+
+section {
+    border: 1px solid purple;
+    width:100%;
+    /* initializing flex box for both parent sections */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section.row-1 {
+    height: 25vh;
+}
+
+section.row-1 div.col-1 {
+    display: flex;
+    width: 24.5%;
+    border: 1px solid orange;
+    height: 25vh;
+    background-color:lightsteelblue;
+}
+
+section.row-1 div.col-2 {
+    display: flex;
+    width: 75%;
+    border: 1px solid yellowgreen;
+    height: 25vh;
+    background-color:cornflowerblue;
+}
+
+section.row-2 {
+    height: 100vh;
+}
+
+section.row-2 div.col-1 {
+    display: flex;
+    width: 24.5%;
+    border: 1px solid green;
+    height: 100vh;
+    background-color:darkgrey;
+}
+
+section.row-2 div.col-2 {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 75%;
+    height: 100vh;
+    background-color:darkkhaki;
+
+
+}
+.break{
+    flex-basis: 100%;
+     
+}
+
+ section.row-2 div.col-2 div.card-1{
+    display: flex;
+    width: 100%;
+    margin: 1%;
+    border: 1px solid pink;
+    height: 50vh;
+    /* flex-flow: row wrap; */
+    background-color:lightskyblue;
+     
+} 
+
+
+section.row-2 div.col-2 div.card-2 {
+    display: flex;
+     width: 45%;
+    border: 1px solid black;
+    height: 20vh;
+    background-color:mediumpurple;
+    margin:0 auto;
+}     
+
+section.row-2 div.col-2 div.card-3 {
+    
+    display: flex;
+     width: 45%;
+     margin:0 auto;
+    border: 1px solid black;
+    height: 20vh;
+    background-color:olive;
+}     
+
+section.row-2 div.col-2 div.card-4 {
+    display: flex;
+    margin: 0 auto;
+     width: 45%;
+    border: 1px solid black;
+    height: 20vh;
+    background-color:darkseagreen;
+}     
+
+section.row-2 div.col-2 div.card-5 {
+    display: flex;
+     width: 45%;
+    border: 1px solid black;
+    height: 20vh;
+    margin: 0 auto;
+    background-color:palevioletred;
+}     
+
+
+section.row-3 {
+    height: 25vh;
+}
+
+section.row-3 div.col-1 {
+    display: flex;
+    width: 24.5%;
+    border: 1px solid orange;
+    height: 25vh;
+    background-color:saddlebrown;
+}
+
+section.row-3 div.col-2 {
+    display: flex;
+    width: 75%;
+    border: 1px solid yellowgreen;
+    height: 25vh;
+    background-color:slategray;
+}
