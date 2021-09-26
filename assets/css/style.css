@@ -56,6 +56,10 @@ header {
     font-size: 1.55vw;
   }
 
+  .hero {
+    background-attachment: fixed;
+    background-position: 80%;
+  }
 
 main{
     height: 100vh;
@@ -86,7 +90,7 @@ section.row-1 div.col-2 {
     width: 75%;
     height: 25vh;
     background-color:cornflowerblue;
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 section.row-2 {
@@ -97,8 +101,8 @@ section.row-2 div.col-1 {
     display: flex;
     width: 24.5%;
     height: 100vh;
-    background-color:darkgrey;
-    opacity: 0.5;
+    background-color:goldenrod;
+    opacity: 0.8;
 }
 
 section.row-2 div.col-2 {
@@ -107,7 +111,7 @@ section.row-2 div.col-2 {
     width: 75%;
     height: 100vh;
     background-color:darkkhaki;
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .break{
@@ -122,7 +126,7 @@ section.row-2 div.col-2 {
     height: 50vh;
     /* flex-flow: row wrap; */
     background-color:lightskyblue;
-    opacity: 0.5;
+    opacity: 0.8;
      
 } 
 
@@ -131,8 +135,8 @@ section.row-2 div.col-2 div.card-2 {
     display: flex;
      width: 45%;
     height: 20vh;
-    background-color:mediumpurple;
-    opacity: 0.8;
+    background-color:saddlebrown
+    opacity: 0.9;
     margin:0 auto;
 }     
 
@@ -152,7 +156,7 @@ section.row-2 div.col-2 div.card-4 {
      width: 45%;
     height: 20vh;
     background-color:darkseagreen;
-    opacity: 0.7;
+    opacity: 0.9;
 }     
 
 section.row-2 div.col-2 div.card-5 {
@@ -161,7 +165,7 @@ section.row-2 div.col-2 div.card-5 {
     height: 20vh;
     margin: 0 auto;
     background-color:palevioletred;
-    opacity: 0.8;
+    opacity: 0.9;
 }     
 
 
@@ -184,3 +188,111 @@ section.row-3 div.col-2 {
     background-color:slategray;
     opacity: 0.9;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .hero-cta, .hero-form {
+      width: 100%;
+    }
+    
+    .hero-cta {
+      text-align: center;
+    }
+  
+    .section-title {
+      width: 80%;
+    }
+    
+    .trainer {
+      flex: 0 70%;
+    }
+    
+    .contact-info iframe{
+      flex: 1 100%;
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  
+    .step h3 {
+      flex: 1 100%;
+      text-align: center;
+    }
+  
+    .step-info {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .step-img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .step-text {
+      flex: 100%;  
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .hero-form button {
+      width: 100%;
+    }
+  
+    .section-title {
+      width: 95%;
+    }
+  
+    .intro p {
+      width: 100%;
+    }
+  
+    .trainer {
+      flex: 0 100%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+  
+    .contact-form {
+      order: 3;
+    }
+  }
