@@ -1,10 +1,17 @@
+body {
+    background-image: url('../image/bike-1245889_1920.jpg');
+}
 
 header {
     padding: 10px 25px;
-    background-color:steelblue;
+    height:30vh;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
   }
   
   header h1 {
@@ -12,20 +19,24 @@ header {
     margin: 0;
     font-size: 36px;
     color:thistle;
+    text-shadow: 2px 2px 5px rgb(48, 46, 46);
     display: flex;
-    width:24.5%;
+    width:24%;
   }
   
   header a {
     text-decoration: none;
+    font-size: 20px;
     color:thistle;
+    text-shadow: 2px 2px 5px rgb(48, 46, 46);
     display: flex;
-    width: 75%;
+    width: 100%;
   }
   
   header nav {
     padding-top: 15px;
-    margin-right: 20px;
+    padding-left: 15px;
+    margin-right: 40px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -45,20 +56,12 @@ header {
     font-size: 1.55vw;
   }
 
-  .hero {
-        background-image: url('../image/bike-1245889_1920.jpg');
-        background-position:center;
-        height: auto;
-        text-align: center;
-        margin-bottom: 40px;
-      }
 
 main{
     height: 100vh;
 }
 
 section {
-    border: 1px solid purple;
     width:100%;
     /* initializing flex box for both parent sections */
     display: flex;
@@ -73,17 +76,17 @@ section.row-1 {
 section.row-1 div.col-1 {
     display: flex;
     width: 24.5%;
-    border: 1px solid orange;
     height: 25vh;
     background-color:lightsteelblue;
+    opacity: 0.8;
 }
 
 section.row-1 div.col-2 {
     display: flex;
     width: 75%;
-    border: 1px solid yellowgreen;
     height: 25vh;
     background-color:cornflowerblue;
+    opacity: 0.2;
 }
 
 section.row-2 {
@@ -93,9 +96,9 @@ section.row-2 {
 section.row-2 div.col-1 {
     display: flex;
     width: 24.5%;
-    border: 1px solid green;
     height: 100vh;
     background-color:darkgrey;
+    opacity: 0.5;
 }
 
 section.row-2 div.col-2 {
@@ -104,9 +107,9 @@ section.row-2 div.col-2 {
     width: 75%;
     height: 100vh;
     background-color:darkkhaki;
-
-
+    opacity: 0.3;
 }
+
 .break{
     flex-basis: 100%;
      
@@ -116,10 +119,10 @@ section.row-2 div.col-2 {
     display: flex;
     width: 100%;
     margin: 1%;
-    border: 1px solid pink;
     height: 50vh;
     /* flex-flow: row wrap; */
     background-color:lightskyblue;
+    opacity: 0.5;
      
 } 
 
@@ -127,9 +130,9 @@ section.row-2 div.col-2 {
 section.row-2 div.col-2 div.card-2 {
     display: flex;
      width: 45%;
-    border: 1px solid black;
     height: 20vh;
     background-color:mediumpurple;
+    opacity: 0.8;
     margin:0 auto;
 }     
 
@@ -138,27 +141,27 @@ section.row-2 div.col-2 div.card-3 {
     display: flex;
      width: 45%;
      margin:0 auto;
-    border: 1px solid black;
     height: 20vh;
     background-color:olive;
+    opacity: 0.9;
 }     
 
 section.row-2 div.col-2 div.card-4 {
     display: flex;
     margin: 0 auto;
      width: 45%;
-    border: 1px solid black;
     height: 20vh;
     background-color:darkseagreen;
+    opacity: 0.7;
 }     
 
 section.row-2 div.col-2 div.card-5 {
     display: flex;
      width: 45%;
-    border: 1px solid black;
     height: 20vh;
     margin: 0 auto;
     background-color:palevioletred;
+    opacity: 0.8;
 }     
 
 
@@ -169,15 +172,15 @@ section.row-3 {
 section.row-3 div.col-1 {
     display: flex;
     width: 24.5%;
-    border: 1px solid orange;
     height: 25vh;
     background-color:saddlebrown;
+    opacity:0.9;
 }
 
 section.row-3 div.col-2 {
     display: flex;
     width: 75%;
-    border: 1px solid yellowgreen;
     height: 25vh;
     background-color:slategray;
+    opacity: 0.9;
 }
