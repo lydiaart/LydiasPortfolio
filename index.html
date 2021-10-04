@@ -5,103 +5,133 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lydia's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-  <header>
-    <h1>Lydia Loy</h1>
+  <div class="container">
     <div class="topnav" id="myTopnav">
-      <nav>
-        <ul>
-          <li>
-            <a href="#about-Me">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact-me">Contact Me</a>
-          </li>
-          <li>
-            <a href="#resume">Resume</a>
-          </li>
-        </ul>
-      </nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about-Me">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact-me">Contact Me</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-  </header>
-
-  <section class="hero">
-
-  </section>
-  <main>
-    <section class="row-1" id="about-Me">
-      <div class="col-1">
-        <h3>About</br>Me</h3>
-        <a href="assets/image/Profile.jpg"></a>
-      </div>
-      <div class="col-2">
-        <p>
-          Hello! My name is Lydia Loy. I am currently a stay home mom with two beautiful daughters and a loving husband.
-          Hopefully, I will find a part-time job after this bootcamp. My focus is still my family, especially my two
-          precious daughters.
-          Thank you so much for your time viewing my profile and previous works. This webpage is still under
-          construction and many updates will be coming soon.
-          Any feedbacks will be greatly appreciated. I'd love to improve and make it better.
-          Thanks again and have a wonderful day!
-        </p>
-      </div>
+    <header>
+      <h1>Lydia Loy</h1>
+      
+        <nav>
+          <ul>
+            <li>
+              <a href="#about-Me">About Me</a>
+            </li>
+            <li>
+              <a href="#work">Work</a>
+            </li>
+            <li>
+              <a href="#contact-me">Contact Me</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://flowingcityloy.github.io/LydiasPortfolio/assets/Resume/Lydia's%20Resume.pdf">Resume</a>
+            </li>
+          </ul>
+        </nav>
+      
+  
+  
+    </header>
+  
+  
+  
+    <section class="hero">
+  
     </section>
+    <main>
+      <section class="row-1"  >
+        <div class="col-1">
+          <h3 class="title">About <br>  Me</h3>
+          <h3 class="mobileTitle">About Me</h3>
+          <a href="assets/image/Profile.jpg"></a>
+        </div>
+        <div class="col-2">
+          <p>
+            Hello! My name is Lydia Loy. I am currently a stay home mom with two beautiful daughters and a loving husband.
+            Hopefully, I will find a part-time job after this bootcamp. My focus is still my family, especially my two
+            precious daughters.
+            Thank you so much for your time viewing my profile and previous works. This webpage is still under
+            construction and many updates will be coming soon.
+            Any feedbacks will be greatly appreciated. I'd love to improve and make it better.
+            Thanks again and have a wonderful day!
+          </p>
+        </div>
+      </section>
+  
+      <section class="row-2" id="work">
+        <div class="col-1">
+          <h3>Work</h3>
+        </div>
+        <div class="col-2">
+          <div class="card-1">
+            <a class="deploy-link" target="_blank" href="https://flowingcityloy.github.io/Horiseon/">
+              <h3 class="label">Code Refactor</h3>
+            </a>
+          </div>
+          <div class="break"></div>
+          <div class="card-2">
+            <a class="deploy-link" target="_blank"
+              href="https://flowingcityloy.github.io/LydiasPortfolio/assets/image/Sketch.jpg">
+              <h3 class="label">Catalog</h3>
+            </a>
+          </div>
+          <div class="card-3">
+            <a class="deploy-link" target="_blank" href="https://flowingcityloy.github.io/LydiasPortfolio/">
+              <h3 class="label">Portfolio</h3>
+            </a>
+          </div>
+          <div class="break"></div>
+          <div class="card-4">
+            <a class="deploy-link" target="_blank"
+              href="https://flowingcityloy.github.io/LydiasPortfolio/assets/image/Sketch.jpg">
+              <h3 class="label">Sketch</h3>
+            </a>
+          </div>
+          <div class="card-5">
+            <a class="deploy-link" target="_blank" href="https://flowingcityloy.github.io/RunBuddy/">
+              <h3 class="label">Run buddy</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+  
+      <section class="row-3" id="contact-me">
+        <div class="col-1  ">
+          <h3 class="title">Contact <br> Me</h3>
+          <h3 class="mobileTitle">Contact Me</h3>
+  
+        </div>
+        <div class="col-2">
+          <p class="pInfo">(872)301-6235  </p> 
+          <p ><a  class="pInfo" href="mailto:lydia_art@yahoo.com">lydia_art@yahoo.com</a> </p>
+          <p><a  class="pInfo" href="https://github.com/flowingcityloy">GitHub</a></p>
+        </div>
+      </section>
+    </main>
+  </div>
 
-    <section class="row-2" id="work">
-      <div class="col-1">
-        <h3>Work</h3>
-      </div>
-      <div class="col-2">
-        <div class="card-1">
-          <a class="deploy-link" target="_blank" href="https://flowingcityloy.github.io/Horiseon/">
-            <h3 class="label">Code Refactor</h3>
-          </a>
-        </div>
-        <div class="break"></div>
-        <div class="card-2">
-          <a class="deploy-link" target="_blank"
-            href="https://flowingcityloy.github.io/LydiasPortfolio/assets/image/Sketch.jpg">
-            <h3 class="label">Catalog</h3>
-          </a>
-        </div>
-        <div class="card-3">
-          <a class="deploy-link" target="_blank" href="https://flowingcityloy.github.io/LydiasPortfolio/">
-            <h3 class="label">Portfolio</h3>
-          </a>
-        </div>
-        <div class="break"></div>
-        <div class="card-4">
-          <a class="deploy-link" target="_blank"
-            href="https://flowingcityloy.github.io/LydiasPortfolio/assets/image/Sketch.jpg">
-            <h3 class="label">Sketch</h3>
-          </a>
-        </div>
-        <div class="card-5">
-          <a class="deploy-link" target="_blank" href="https://flowingcityloy.github.io/RunBuddy/">
-            <h3 class="label">Run buddy</h3>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="row-3" id="contact-me">
-      <div class="col-1  ">
-        <h3>Contact <br> Me</h3>
-
-      </div>
-      <div class="col-2">
-        <p>(872)301-6235</p>
-        <p><a href="mailto:lydia_art@yahoo.com">lydia_art@yahoo.com</a></p>
-        <p><a href="https://github.com/flowingcityloy">GitHub</a></p>
-      </div>
-    </section>
-  </main>
+ 
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 </body>
 
 </html>
