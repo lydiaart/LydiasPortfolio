@@ -2,7 +2,7 @@
 
 ## Description
 
-This is Lydia's portfolio. You will find her recent photo, brief introduction of herself, previous work, contact information and resume. It is still under construction, and more updates will be coming soon.
+This is Lydia's first portfolio. It's mainly built with HTML and CSS. The purpose of this design is to practice styling using CSS. The code is not the simpliest way, but it is a good way to solidify the language of CSS. The webpage will be updated with more of Lydia's works eventually.
 Thanks for visiting!
 
 
@@ -14,17 +14,16 @@ Thanks for visiting!
 * [Credits](#Credits)
 
 
-## Installation
+## Built With
 
-1. clone the code from github.
-2. download the files into your computer.
-3. ready to use.
+1. HTML
+2. CSS
 
 ## Usage
 
 Users can access one of the three corresponding sections by clicking the links in navigation. They are "About Me," "Work," and "Contact Me." The fourth navigation will open a new window with Lydia's "Resume."
 
-In "About Me" section, users will find Lydia's recent provile photo and brief introduction of herself.
+In "About Me" section, users will find Lydia's recent profile photo and brief introduction of herself.
 In "Work" section, users will find Lydia's previous works.
 In "Contact Me" section, users will find Lydia's contact information.
 
