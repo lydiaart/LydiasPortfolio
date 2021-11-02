@@ -1,3 +1,6 @@
+* {
+  font-family: Poiret One;
+}
 body{
   width: 100%;
   margin:0;
@@ -32,7 +35,7 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;  
-     background-position: 100%;
+    background-position: 100%;
   
   }
   
@@ -163,8 +166,9 @@ section.row-2 div.col-2 {
     width: 100%;
     margin: 1%;
     height: 65vh;
-    background-image: url(../image/WDS.png);
+    background-image: url(../image/SS-1.png);
     background-size:cover; 
+    position:relative;
 } 
 
 section.row-2 div.col-2 div.card-2 {
@@ -173,8 +177,9 @@ section.row-2 div.col-2 div.card-2 {
     height: 30vh;
     margin-left:  0.9%;
     margin-bottom: 0.8%;
-    background-image: url(../image/Cat-contents.jpg);
+    background-image: url(../image/WDS.png);
     background-size:cover;
+    position:relative;
 }     
 
 section.row-2 div.col-2 div.card-3 {
@@ -185,6 +190,7 @@ section.row-2 div.col-2 div.card-3 {
     height: 30vh;
     background-image: url(../image/PG.png);
     background-size:cover;
+    position:relative;
 }     
 
 section.row-2 div.col-2 div.card-4 {
@@ -195,6 +201,7 @@ section.row-2 div.col-2 div.card-4 {
     height: 30vh;
     background-image: url(../image/page1.png);
     background-size:cover;
+    position:relative;
 }   
 
 section.row-2 div.col-2 div.card-5 {
@@ -205,6 +212,7 @@ section.row-2 div.col-2 div.card-5 {
     margin-left:  0.6%;
     background-image: url(../image/run-buddy.png);
     background-size:cover;
+    position:relative;
 }     
 
 section.row-3 {
@@ -244,14 +252,16 @@ section.row-3 div.col-2 p  {
 }
 
 .label{
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:Poiret One;
   font-size: 20px ;
-  color: darkslategrey;
-  text-shadow: 2px 2px 3px white;
+  color: white;
+  text-shadow: 1px 2px 2px black;
   text-align: left;
   height: 5vh;
   margin-left: 5%;
- 
+ position:absolute;
+ left:1px;
+ bottom:1px;
 }
 .deploy-link {
   width: 100%;
