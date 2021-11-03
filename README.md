@@ -8,7 +8,7 @@ Thanks for visiting!
 
 ## Table of Contents
 
-* [Installation](#Installation)
+* [Built With](#Builtwith)
 * [Usage](#Usage)
 * [Websites](#Websites)
 * [Credits](#Credits)
@@ -28,7 +28,7 @@ In "Work" section, users will find Lydia's previous works.
 In "Contact Me" section, users will find Lydia's contact information.
 
 The following image demonstrates the web application's appearance and functionality:
-<img src="./assets/image/portfolio.png" alt="portfolio"/>
+<img src="./assets/image/updated.png" alt="portfolio"/>
 
 
 ## Websites
@@ -40,4 +40,4 @@ https://github.com/flowingcityloy/LydiasPortfolio
 
 ## Credits
 
-❤️ Made with love by Lydia Loy ❤️
+Lydia Loy
