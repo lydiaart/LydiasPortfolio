@@ -26,9 +26,9 @@ The following image demonstrates the web application's appearance and functional
 
 ## Websites
 
-https://flowingcityloy.github.io/LydiasPortfolio/ (Links to an external site.)
+[Live site](https://flowingcityloy.github.io/LydiasPortfolio/)
 
-https://github.com/flowingcityloy/LydiasPortfolio
+[Repository](https://github.com/flowingcityloy/LydiasPortfolio)
 
 
 ## Credits
