@@ -26,11 +26,11 @@ The following image demonstrates the web application's appearance and functional
 
 ## Websites
 
-[Live site](https://flowingcityloy.github.io/LydiasPortfolio/)
+[Live site](https://lydiaart.github.io/LydiasPortfolio/)
 
-[Repository](https://github.com/flowingcityloy/LydiasPortfolio)
+[Repository](https://github.com/lydiaart/LydiasPortfolio)
 
 
 ## Credits
 
-Lydia Loy
+2U Instructors, Tutor, TAs and Lydia L
