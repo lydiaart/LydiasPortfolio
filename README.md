@@ -2,7 +2,7 @@
 
 ## Description
 
-This is Lydia's portfolio. 
+Lydia's portfolio built with HTML and CSS. 
 Thanks for visiting!
 
 

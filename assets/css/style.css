@@ -37,7 +37,7 @@ header {
     font-family:Arial, Helvetica, sans-serif;
     margin: 20px;
     font-size: 36px;
-    color:saddlebrown;
+    color:rgb(203, 87, 4);
     display: flex;
     width:24%;
   }
@@ -45,7 +45,7 @@ header {
   header a {
     text-decoration: none;
     font-size: 18px;
-    color:saddlebrown;
+    color:rgb(203, 87, 4);
     display: flex;
     width: 100%;
   }
@@ -100,7 +100,7 @@ section.row-1 div.col-1 {
     justify-content: right;
     padding-right: 2%;
     text-align: right;
-    color:darkslategrey;
+    color:grey;
     background-image: url(../image/Profile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -268,7 +268,7 @@ section.row-3 div.col-2 p  {
  
 .topnav {
   overflow: hidden;
-  background-color:saddlebrown;
+  background-color:rgb(203, 87, 4);
 }
 
 .topnav a {
