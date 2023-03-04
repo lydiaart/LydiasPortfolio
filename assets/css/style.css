@@ -16,6 +16,8 @@ body{
 }
 .topnav{
   display: none;
+  overflow: hidden;
+  background-color:rgb(203, 87, 4);
 }
 
 header {
@@ -266,11 +268,6 @@ section.row-3 div.col-2 p  {
   display: none;
 }
  
-.topnav {
-  overflow: hidden;
-  background-color:rgb(203, 87, 4);
-}
-
 .topnav a {
   float: left;
   display: block;
@@ -299,6 +296,7 @@ section.row-3 div.col-2 p  {
   text-align: right;
   width: 100%;
 }
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 575px) {
     .topnav{
